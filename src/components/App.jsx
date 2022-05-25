@@ -1,8 +1,13 @@
 import React from 'react';
+import ChangePassword from '../containers/ChangePassword';
+import Layout from '../containers/Layout';
+import '../styles/global.css'
 
 const App = () =>{
     return(
-        <h1>Hello World, First steps with react</h1>
+        <Layout>
+            <ChangePassword />
+        </Layout>
     );
 }
 
